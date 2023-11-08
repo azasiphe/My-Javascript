@@ -20,3 +20,30 @@ console.log('The modulus when num1 is divided by num2 ${modulus}');
 
 console.log(`num1 / num2 = ${Math.floor(num1 / num2)} modulus ${modulus}`);
 
+// B. Task 2:Data Types
+
+
+let integer =20;
+let decimal =8.5;
+
+let string =" MOLO,BEAUTIFUL";
+
+let array =[1,2,3];
+let object ={key1: 'value1',key2: 'value2',key3: 'value3',key4: 'value4', }
+
+
+
+
+console.log(interger,decimal,string,array,object);
+
+console.log(typeof integer, typeof decimal, typeof string, typeof array, typeof object);
+
+let Mixit =[1,"two",3.0];
+console.log(typeof Mixit);
+
+
+let nullVariable = null;
+let undefinedVariable;
+
+
+
