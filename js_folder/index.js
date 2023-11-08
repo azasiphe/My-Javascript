@@ -4,46 +4,55 @@
 
 
 let language = "JavaScript" ;
-let score = "10" ;
+console.log(language)
+let score = 10 ;
+console.log(score)
 
-
-let length =10 ;
+let length = 10 ;
 let width = 5;
-let area = length * width ;
- console.log( 'The area of rectangele is the ${area}');
+let area = length* width ;
+ console.log( 'The area of rectangle is ${length*width}')
 
 let num1 = 10;
 let num2 = 3;
-let modulus = num1 % num2 ;
-console.log('The modulus when num1 is divided by num2 ${modulus}');
+let remainder = num1%num2 ;
+console.log('The remainder when num1 is divided by num2 ${num1%num2}')
 
 
-console.log(`num1 / num2 = ${Math.floor(num1 / num2)} modulus ${modulus}`);
+console.log(`num1 / num2 = ${Math.floor(num1 / num2)} remainder ${num1%num2}`)
 
 // B. Task 2:Data Types
 
 
-let integer =20;
-let decimal =8.5;
+let integer = 20;
+let decimal = 8.5;
 
-let string =" MOLO,BEAUTIFUL";
+let string = " MOLO,BEAUTIFUL";
 
-let array =[1,2,3];
-let object ={key1: 'value1',key2: 'value2',key3: 'value3',key4: 'value4', }
+let array = [1,2,3];
+let object =  { key1: 'value1',key2: 'value2',key3: 'value3',key4: 'value4'}
+
+console.log(integer);
+console.log(decimal);
+console.log(string);
+console.log(array);
+console.log(object);
 
 
+console.log(typeof integer);
+console.log(typeof decimal );
+console.log(typeof string);
+console.log(typeof array);
+console.log(typeof object);
 
 
-console.log(interger,decimal,string,array,object);
-
-console.log(typeof integer, typeof decimal, typeof string, typeof array, typeof object);
-
-let Mixit =[1,"two",3.0];
+let Mixit = [1,"two",3.0];
+console.log(Mixit)
 console.log(typeof Mixit);
 
 
-let nullVariable = null;
-let undefinedVariable;
+let blue = null;
+let  red = undefined;
 
 
 // ***********C. Task 3. functions and contional statements************
@@ -74,4 +83,4 @@ function displayLargerValue() {
 displayLargerValue();
 
 let sortedNumbers = [firstNum, secondNum, thirdNum].sort((a, b) => b - a);
-console.log("Sorted numbers from largest to smallest:", sortedNumbers);
+console.log("Sorted numbers from largest to smallest:", sortedNumbers)
