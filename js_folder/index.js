@@ -46,4 +46,32 @@ let nullVariable = null;
 let undefinedVariable;
 
 
+// ***********C. Task 3. functions and contional statements************
+// convert R1000 into dollars, euros and pounds.
 
+function convertToDollars(amount) {    return amount / 54.50500;
+}
+function convertToEuros(amount) {    return amount / 50.98000;
+}
+function convertToPounds(amount) {    return amount / 44.35240;
+}
+
+function calculateAmountWithVAT(amount) {
+    const VAT = 0.15;
+    return amount * (1 + VAT);
+}
+let amountAfterTax = calculateAmountWithVAT(400);
+console.log(`The amount after tax is ${amountAfterTax}`);
+
+let firstNum = 8;
+let secondNum = 20;
+let thirdNum = 14;
+
+function displayLargerValue() {
+    let larger = Math.max(firstNum, secondNum, thirdNum);
+    console.log(`The larger value is: ${larger}`);
+}
+displayLargerValue();
+
+let sortedNumbers = [firstNum, secondNum, thirdNum].sort((a, b) => b - a);
+console.log("Sorted numbers from largest to smallest:", sortedNumbers);
